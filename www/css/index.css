@@ -1,0 +1,50 @@
+body{
+    font-family: Verdana,Arial;
+    font-size: 18px;
+    background-color: #D4D0B4;
+}
+h1{
+    background-color:#626b5e;
+    font-sixe:1em;
+    color:#f5f6f5;
+    line-height:2em;
+    test-align:center;
+    padding-left: 10px;
+
+}
+
+#NewTaskInput, #AddNewTask{
+    display:block;
+    width:99%
+    margin-top:5px;
+    margin:left:auto;
+    margin-right:auto;
+    background-color:#757769;
+    border: 0;
+    height:2em;
+    font-size:1em;
+    color:#f5f6f5;
+}
+#taskList{
+    margin-top:10px;
+}
+
+#taskList > li
+{
+    background: -webkit-linear-gradient(#fff, #f6f6f7);
+    background: -o-linear-gradient(#fff, #f6f6f7);
+    background: -moz-linear-gradient(#fff, #f6f6f7);
+    background: linear-gradient(#fff, #f6f6f7);
+    border: 1px solid #bbb6af;
+    line-height:2em;
+    color:#929292;
+
+}
+
+#taskList span{
+    margin:left:5px;
+}
+.done{
+    text-decoration:line-through;
+    opacity:0.5;
+}
